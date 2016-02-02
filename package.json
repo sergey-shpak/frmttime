@@ -1,0 +1,23 @@
+{
+  "name": "frmtftime",
+  "description": "Time format for JavaScript",
+  "version": "0.0.1",
+  "author": {
+    "name": "Sergey Shpak",
+    "email": "sergey.shpak.web@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:sergey-shpak/frmttime.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sergey-shpak/frmttime/issues"
+  },
+  "main": "./frmttime.js",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://shps.mit-license.org"
+    }
+  ]
+}

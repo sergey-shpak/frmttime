@@ -1,2 +1,4 @@
-# strftime
+# frmttime
 Fastest javascript 'strftime' implementation
+
+
