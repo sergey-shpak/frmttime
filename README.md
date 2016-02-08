@@ -5,7 +5,6 @@ Converts javascript date object to custom textual representation according to gi
 One more implementation of javascript date formatting, focused at high speed and performance. 
 
 [Javascript challenge 1st place winner (50x faster)](https://github.com/hola/challenge_strftime).
-Inspired by [strftime](https://github.com/samsonjs/strftime) as base.
 
 ## Installation
 
