@@ -25,7 +25,7 @@ typical javascript library/module ( it supports AMD, CommonJs and plain browser 
 
 **frmttime** can be installed as [npm package](https://www.npmjs.com/):
 
-    npm install frmtftime
+    npm install frmttime
 
 And used as [CommonJS](https://addyosmani.com/writing-modular-js/):
 
