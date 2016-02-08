@@ -1,6 +1,6 @@
 ## frmttime - format JavaScript date (high performance)
 
-Converts javascript date object to custom textual representation according to given pattern.
+Textual representation of javascript date object according to given pattern (date formatting).
 
 One more implementation of javascript date formatting, focused at high speed and performance. 
 
