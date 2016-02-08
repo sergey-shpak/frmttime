@@ -1,4 +1,4 @@
-## frmttime - format JavaScript date with high performance
+## frmttime - format JavaScript date (high performance)
 
 Converts javascript date object to custom textual representation according to given pattern.
 
