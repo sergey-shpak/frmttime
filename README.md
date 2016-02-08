@@ -1,25 +1,27 @@
-## frmttime
-*frmttime* - is the fastest javascript 'strftime' implementation.
+## frmttime - format JavaScript date with high performance
+
+Converts javascript date object to custom textual representation according to given pattern.
+
+One more implementation of javascript date formatting, focused at high speed and performance. 
+
+[Javascript challenge 1st place winner (50x faster)](https://github.com/hola/challenge_strftime).
+Inspired by [strftime](https://github.com/samsonjs/strftime) as base.
 
 ## Installation
 
-##### Browser:
-
 **frmttime** can be [downloaded](https://raw.githubusercontent.com/sergey-shpak/frmttime/master/frmttime.js) and used as 
-typical javascript library ( **frmttime** supports AMD, CommonJs and plain browser module exports).
+typical javascript library/module ( it supports AMD, CommonJs and plain browser module exports)
  
-[Script tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script)
+[as Page Script](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script)
 
     <script type="text/javascript" src="path_to_frmttime"></script>
-    window.tools.frmttime
+    var formattedDate = window.frmttime.format('%y/%m/%d');
  
-[AMD](https://addyosmani.com/writing-modular-js/):
+[as AMD module](https://addyosmani.com/writing-modular-js/):
 
     define('myModuleName', ['frmttime'], function( frmttime ){
-    	// frmttime usage
+        var formattedDate = frmttime.format('%y/%m/%d');
     })
-
-##### NodeJS:
 
 **frmttime** can be installed as [npm package](https://www.npmjs.com/):
 
@@ -28,9 +30,11 @@ typical javascript library ( **frmttime** supports AMD, CommonJs and plain brows
 And used as [CommonJS](https://addyosmani.com/writing-modular-js/):
 
     var frmttime = require('frmttime');
-    // frmttime usage    
+    var formattedDate = frmttime.format('%y/%m/%d');
 
-## Usage
+## Methods
+
+## Usage Examples
 
 ## Supported Specifiers
 
